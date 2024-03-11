@@ -1,9 +1,80 @@
-<mxfile host="app.diagrams.net" modified="2024-03-11T09:03:04.594Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0" version="24.0.4" etag="jyA_lGLSo2Un7wi0tDTL" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-11T09:28:36.540Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0" etag="_EAJI0pASRKM9lswaesA" version="24.0.4" type="github">
   <diagram name="Page-1" id="mIupJR-Ys6AZV9ENaitS">
-    <mxGraphModel>
+    <mxGraphModel dx="1432" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="r5NrgrY_V1BZZpztN0UX-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=3;fontSize=14;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="r5NrgrY_V1BZZpztN0UX-1" target="r5NrgrY_V1BZZpztN0UX-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="340" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r5NrgrY_V1BZZpztN0UX-7" value="VIO Position --&amp;gt; Odometry" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="r5NrgrY_V1BZZpztN0UX-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-95" y="-50" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r5NrgrY_V1BZZpztN0UX-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 1;strokeWidth=3;fontSize=14;" edge="1" parent="1" source="r5NrgrY_V1BZZpztN0UX-1" target="r5NrgrY_V1BZZpztN0UX-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r5NrgrY_V1BZZpztN0UX-25" value="/dgvins/odometry" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];arcSize=12;fontSize=14;" vertex="1" connectable="0" parent="r5NrgrY_V1BZZpztN0UX-15">
+          <mxGeometry x="-0.17" y="-3" relative="1" as="geometry">
+            <mxPoint x="9" y="-23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r5NrgrY_V1BZZpztN0UX-1" value="Orin NX&lt;div style=&quot;font-size: 14px;&quot;&gt;(DGVINS)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="280" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r5NrgrY_V1BZZpztN0UX-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;fontSize=14;" edge="1" parent="1" source="r5NrgrY_V1BZZpztN0UX-2" target="r5NrgrY_V1BZZpztN0UX-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r5NrgrY_V1BZZpztN0UX-2" value="D455" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="80" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r5NrgrY_V1BZZpztN0UX-5" value="Pixhawk" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="450" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r5NrgrY_V1BZZpztN0UX-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;strokeWidth=3;dashPattern=1 1;fontSize=14;" edge="1" parent="1" source="r5NrgrY_V1BZZpztN0UX-10" target="r5NrgrY_V1BZZpztN0UX-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="380" />
+              <mxPoint x="540" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r5NrgrY_V1BZZpztN0UX-23" value="VICON TO ROS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="r5NrgrY_V1BZZpztN0UX-22">
+          <mxGeometry x="0.8063" y="4" relative="1" as="geometry">
+            <mxPoint x="-206" y="108" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r5NrgrY_V1BZZpztN0UX-10" value="VICON Capture" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="80" y="350" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r5NrgrY_V1BZZpztN0UX-14" value="Ground Station&lt;div style=&quot;font-size: 14px;&quot;&gt;(RVIZ)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="600" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r5NrgrY_V1BZZpztN0UX-16" value="TO-DO" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="80" y="450" width="640" height="180" as="geometry">
+            <mxRectangle x="350" y="360" width="80" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r5NrgrY_V1BZZpztN0UX-17" value="Modify Pixhawk parameters to VO settings" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="r5NrgrY_V1BZZpztN0UX-16">
+          <mxGeometry y="30" width="640" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r5NrgrY_V1BZZpztN0UX-18" value="Hardware connection(RED Line)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="r5NrgrY_V1BZZpztN0UX-16">
+          <mxGeometry y="60" width="640" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r5NrgrY_V1BZZpztN0UX-19" value="VICON TO ROS Node and Internet settings(GREEN LINE)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="r5NrgrY_V1BZZpztN0UX-16">
+          <mxGeometry y="90" width="640" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r5NrgrY_V1BZZpztN0UX-20" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="r5NrgrY_V1BZZpztN0UX-16">
+          <mxGeometry y="120" width="640" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r5NrgrY_V1BZZpztN0UX-21" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="r5NrgrY_V1BZZpztN0UX-16">
+          <mxGeometry y="150" width="640" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
