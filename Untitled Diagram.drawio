@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-11T09:41:37.875Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0" etag="f5cX0x_zeklTvly_AONV" version="24.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-11T09:43:10.870Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0" etag="0y6cq4-1U1TN96YMzAUL" version="24.0.4" type="github">
   <diagram name="Page-1" id="mIupJR-Ys6AZV9ENaitS">
     <mxGraphModel dx="1432" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -55,18 +55,19 @@
         <mxCell id="r5NrgrY_V1BZZpztN0UX-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;strokeWidth=3;dashPattern=1 1;fontSize=14;fontStyle=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="r5NrgrY_V1BZZpztN0UX-10" target="r5NrgrY_V1BZZpztN0UX-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="240" y="317" />
+              <mxPoint x="200" y="360" />
+              <mxPoint x="240" y="360" />
               <mxPoint x="240" y="205" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="r5NrgrY_V1BZZpztN0UX-23" value="VICON TO ROS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontStyle=1" vertex="1" connectable="0" parent="r5NrgrY_V1BZZpztN0UX-22">
           <mxGeometry x="0.8063" y="4" relative="1" as="geometry">
-            <mxPoint x="-81" y="59" as="offset" />
+            <mxPoint x="-77" y="79" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="r5NrgrY_V1BZZpztN0UX-10" value="VICON Capture" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="80" y="302" width="120" height="60" as="geometry" />
+          <mxGeometry x="80" y="340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="r5NrgrY_V1BZZpztN0UX-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;dashed=1;dashPattern=1 1;startArrow=classic;startFill=1;fillColor=#dae8fc;strokeColor=#6c8ebf;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="r5NrgrY_V1BZZpztN0UX-1" target="r5NrgrY_V1BZZpztN0UX-5">
           <mxGeometry relative="1" as="geometry">
@@ -98,7 +99,7 @@
         <mxCell id="r5NrgrY_V1BZZpztN0UX-19" value="VICON TO ROS Node and Internet settings(GREEN LINE)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" vertex="1" parent="r5NrgrY_V1BZZpztN0UX-16">
           <mxGeometry y="90" width="640" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="r5NrgrY_V1BZZpztN0UX-37" value="GroundStation &amp;amp; Pixhawk communication" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" vertex="1" parent="r5NrgrY_V1BZZpztN0UX-16">
+        <mxCell id="r5NrgrY_V1BZZpztN0UX-37" value="GroundStation &amp;amp; Pixhawk communication(BLUE LINE &amp;amp; WHITE LINE)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" vertex="1" parent="r5NrgrY_V1BZZpztN0UX-16">
           <mxGeometry y="120" width="640" height="30" as="geometry" />
         </mxCell>
       </root>
